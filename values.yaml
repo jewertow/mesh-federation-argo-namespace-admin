@@ -1,0 +1,18 @@
+import:
+  - hostname: foo.mesh.global
+  - hostname: bar.mesh.global
+    ports:
+    - number: 8090
+      name: grpc
+      protocol: GRPC
+export:
+  - hostname: payments.mesh.global
+    labelSelector:
+      app: payments
+  - hostname: search.mesh.global
+    ports:
+    - number: 9090
+      name: grpc
+      protocol: GRPC
+    labelSelector:
+      app: search

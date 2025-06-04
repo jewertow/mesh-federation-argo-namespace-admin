@@ -1,0 +1,9 @@
+export:
+  - hostname: httpbin-service.mesh.global
+    labelSelector:
+      app: httpbin
+    ports:
+    - number: 8000
+      name: http
+      protocol: HTTP
+
