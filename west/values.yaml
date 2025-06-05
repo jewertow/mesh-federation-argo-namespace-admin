@@ -6,4 +6,5 @@ export:
     - number: 8000
       name: http
       protocol: HTTP
+      targetPort: 8080
 
