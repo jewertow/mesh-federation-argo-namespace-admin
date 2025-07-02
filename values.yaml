@@ -1,0 +1,4 @@
+export:
+- hostname: ratings.mesh.global
+  labelSelector:
+    app: ratings

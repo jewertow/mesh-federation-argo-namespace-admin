@@ -1,6 +1,0 @@
-import:
-- hostname: httpbin-service.mesh.global
-  ports:
-  - number: 8000
-    name: http
-    protocol: HTTP
