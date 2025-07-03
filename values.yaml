@@ -1,2 +1,3 @@
 import:
 - hostname: ratings.mesh.global
+- hostname: details.mesh.global
