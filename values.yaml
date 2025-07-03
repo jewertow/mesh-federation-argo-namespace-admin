@@ -2,3 +2,6 @@ export:
 - hostname: details.mesh.global
   labelSelector:
     app: details
+- hostname: ratings.mesh.global
+  labelSelector:
+    app: ratings
