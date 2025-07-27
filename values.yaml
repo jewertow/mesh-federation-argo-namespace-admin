@@ -1,3 +1,7 @@
 import:
 - hostname: ratings.mesh.global
 - hostname: details.mesh.global
+export:
+- hostname: details.mesh.global
+  labelSelector:
+    app: details
